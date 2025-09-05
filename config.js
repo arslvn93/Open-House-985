@@ -165,7 +165,7 @@ const config = {
     "repoName": "Open-House-985",
     "repoUrl": "https://github.com/arslvn93/Open-House-985",
     "siteId": "f5730f50-4c04-4fa5-a573-94bfacf53cae",
-    "netlifyUrl": "",
-    "tag": ""
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/CVLYBNRm65xkdYXWeFCq/webhook-trigger/Bz5U2LrvSTZglC5ZrM8D",
+    "tag": "Leads | 39 Cambridge Court Open House"
   }
 };
