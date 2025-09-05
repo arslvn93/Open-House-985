@@ -1,1 +1,111 @@
-{"property":{"streetAddress":"39 Cambridge Court","cityStateZip":"Kemptville, ON K0G 1J0","city":"Kemptville","listingPrice":"$850,000","backgroundImageUrl":"https://api.typeform.com/responses/files/2fb882791696f24b7aa40ad79891782cf6e3396f61b1a36069c77b7c265b56be/1_web_or_mls_4_print_DSC05534_twilight_5a293a65_9b4b_4cb1_b419_65654c65d3fa.jpg","listingPhoto2Url":"https://api.typeform.com/responses/files/a7fef045aa4eb2bb17564d6aaa1d373b4dfad5fd3fa6f78c1ec764506099a359/7_web_or_mls_DSC05537.jpg","heroSubtitle":"End-unit bungalow in Oxford Heights! Less than 5 minutes to Kemptville, open concept layout, located at the end of a quiet cul de sac. Register for the full info package, virtual tour, floor plan, and more.","bedrooms":"4","bathrooms":"3","homeType":"Bungalow","keySellingFeature":"In the Oxford Heights community","benefits":["less than 5 minutes to kemptville","open concept","End of a quiet cul de sac"],"assets":[{"title":"Property Listing","url":"https://www.realtor.ca/real-estate/28790400/39-cambridge-court-north-grenville-801-kemptville"},{"title":"Floor Plan","url":"https://sites.ground2airmedia.com/sites/39-cambridge-ct-kemptville-on-k0g-1j0-18650163/branded"},{"title":"Branded Media Video","url":"https://youtube.com/shorts/Jl2TzAmbRYI"}]},"realtor":{"fullName":"Driscoll-Peca Team","email":"melissa@driscollpeca.com","brokerage":"Real Broker LTD","brokerageAddress":"218 Brant Avenue\nBrantford ON N3T 3H9","photoUrl":null,"phone":null,"bio":"","social":{"facebook":"https://www.facebook.com/driscollpecateam","instagram":"https://instagram.com/ae.parks","website":null}},"brokerage":{"name":"Real Broker LTD","logoUrl":null,"address":"218 Brant Avenue, Brantford ON N3T 3H9"},"openHouse":{"eventDate":"2025-09-07","bundleItems":[{"icon":"fas fa-link","text":"Property Listing URL"},{"icon":"fas fa-ruler-combined","text":"Floor Plan"},{"icon":"fas fa-image","text":"Photos"},{"icon":"fas fa-video","text":"Virtual Tour"}]},"meta":{"pageTitlePrefix":"🏡 Driscoll-Peca Team Open House","navBrandLogoText":"OPEN HOUSE","privacyPolicyLink":"https://driscollpeca.com/privacy.html"},"settings":{"adminWebhookUrl":"https://n8n.salesgenius.co/webhook/openhouseupdate","visitorWebhookUrl":"https://n8n.salesgenius.co/webhook/openhouse","confettiColors":["#87bdd8","#f6eac2","#bcaaa4","#9ccc65","#ffe082"]},"modalQuestions":[{"id":"agent_status","questionText":"Are you currently exploring homes with a real estate agent?","options":[{"value":"committed","text":"Yes, I'm committed to an agent."},{"value":"not_committed","text":"No, I'm not committed to an agent."},{"value":"gathering_info","text":"Just gathering information at this stage."}]},{"id":"interest_level","questionText":"How interested are you in properties like this?","options":[{"value":"very_interested","text":"Very interested, actively looking."},{"value":"somewhat_interested","text":"Somewhat interested, keeping options open."},{"value":"just_browsing","text":"Just browsing for now."}]},{"id":"neighborhood_engagement","questionText":"How do you usually enjoy the neighborhood?","options":[{"value":"resident_explorer","text":"I live here and love exploring locally."},{"value":"considering_move","text":"I'm considering moving to this area."},{"value":"just_visiting","text":"Just visiting for the open house."}]},{"id":"feature_attraction","questionText":"What feature attracted you to this home?","options":[{"value":"design_layout","text":"The design and layout."},{"value":"location_neighborhood","text":"The location and neighborhood."},{"value":"home_price","text":"The price of the home."}]}],"deploymentInfo":{"repoName":"Open-House-985","repoUrl":"https://github.com/arslvn93/Open-House-985","siteId":"1051198320"}}
+const config = {
+  "property": {
+    "streetAddress": "39 Cambridge Court",
+    "cityStateZip": "Kemptville, ON K0G 1J0",
+    "city": "Kemptville",
+    "listingPrice": "$850,000",
+    "backgroundImageUrl": "https://api.typeform.com/responses/files/2fb882791696f24b7aa40ad79891782cf6e3396f61b1a36069c77b7c265b56be/1_web_or_mls_4_print_DSC05534_twilight_5a293a65_9b4b_4cb1_b419_65654c65d3fa.jpg",
+    "listingPhoto2Url": "https://api.typeform.com/responses/files/a7fef045aa4eb2bb17564d6aaa1d373b4dfad5fd3fa6f78c1ec764506099a359/7_web_or_mls_DSC05537.jpg",
+    "heroSubtitle": "End-unit bungalow in Oxford Heights! Less than 5 minutes to Kemptville, open concept layout, located at the end of a quiet cul de sac. Register for the full info package, virtual tour, floor plan, and more.",
+    "bedrooms": "4",
+    "bathrooms": "3",
+    "homeType": "Bungalow",
+    "keySellingFeature": "In the Oxford Heights community",
+    "benefits": ["less than 5 minutes to kemptville", "open concept", "End of a quiet cul de sac"],
+    "assets": [
+      {
+        "title": "Property Listing",
+        "url": "https://www.realtor.ca/real-estate/28790400/39-cambridge-court-north-grenville-801-kemptville"
+      },
+      {
+        "title": "Floor Plan",
+        "url": "https://sites.ground2airmedia.com/sites/39-cambridge-ct-kemptville-on-k0g-1j0-18650163/branded"
+      },
+      {
+        "title": "Branded Media Video",
+        "url": "https://youtube.com/shorts/Jl2TzAmbRYI"
+      }
+    ]
+  },
+  "realtor": {
+    "fullName": "Driscoll-Peca Team",
+    "email": "melissa@driscollpeca.com",
+    "brokerage": "Real Broker LTD",
+    "brokerageAddress": "218 Brant Avenue\nBrantford ON N3T 3H9",
+    "photoUrl": null,
+    "phone": null,
+    "bio": "",
+    "social": {
+      "facebook": "https://www.facebook.com/driscollpecateam",
+      "instagram": "https://instagram.com/ae.parks",
+      "website": null
+    }
+  },
+  "brokerage": {
+    "name": "Real Broker LTD",
+    "logoUrl": null,
+    "address": "218 Brant Avenue, Brantford ON N3T 3H9"
+  },
+  "openHouse": {
+    "eventDate": "2025-09-07",
+    "bundleItems": [
+      { "icon": "fas fa-link", "text": "Property Listing URL" },
+      { "icon": "fas fa-ruler-combined", "text": "Floor Plan" },
+      { "icon": "fas fa-image", "text": "Photos" },
+      { "icon": "fas fa-video", "text": "Virtual Tour" }
+    ]
+  },
+  "meta": {
+    "pageTitlePrefix": "🏡 Driscoll-Peca Team Open House",
+    "navBrandLogoText": "OPEN HOUSE",
+    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
+  },
+  "settings": {
+    "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
+    "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
+    "confettiColors": ["#87bdd8","#f6eac2","#bcaaa4","#9ccc65","#ffe082"]
+  },
+  "modalQuestions": [
+    {
+      "id": "agent_status",
+      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "options": [
+        { "value": "committed", "text": "Yes, I'm committed to an agent." },
+        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
+        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+      ]
+    },
+    {
+      "id": "interest_level",
+      "questionText": "How interested are you in properties like this?",
+      "options": [
+        { "value": "very_interested", "text": "Very interested, actively looking." },
+        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
+        { "value": "just_browsing", "text": "Just browsing for now." }
+      ]
+    },
+    {
+      "id": "neighborhood_engagement",
+      "questionText": "How do you usually enjoy the neighborhood?",
+      "options": [
+        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
+        { "value": "considering_move", "text": "I'm considering moving to this area." },
+        { "value": "just_visiting", "text": "Just visiting for the open house." }
+      ]
+    },
+    {
+      "id": "feature_attraction",
+      "questionText": "What feature attracted you to this home?",
+      "options": [
+        { "value": "design_layout", "text": "The design and layout." },
+        { "value": "location_neighborhood", "text": "The location and neighborhood." },
+        { "value": "home_price", "text": "The price of the home." }
+      ]
+    }
+  ],
+  "deploymentInfo": {
+    "repoName": "Open-House-985",
+    "repoUrl": "https://github.com/arslvn93/Open-House-985",
+    "siteId": "f5730f50-4c04-4fa5-a573-94bfacf53cae"
+  }
+};
